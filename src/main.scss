@@ -1,0 +1,164 @@
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import '_header';
+
+
+a, p, span, h3 { font-family: 'Raleway'; }
+
+.fa { font-size: 20px !important; display: inline-block; font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #f0f8ff !important; text-align: center; }
+
+.fa-big { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: 30px; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #333; text-align: center; }
+
+.fa-bars:before { content: "\f0c9"; }
+
+.fa-heart:before { content: "\f004"; }
+
+.fa-search:before { content: "\f002"; }
+
+.fa-truck:before { content: "\f0d1"; }
+
+.fa-handshake-o:before { content: "\f2b5"; }
+
+.fa-users:before { content: "\f0c0"; }
+
+.fa-cart-plus:before { content: "\f217"; }
+
+.fa-instagram:before { content: "\f16d"; }
+
+.fa-whatsapp:before { content: "\f232"; }
+
+.fa-facebook:before { content: "\f082"; }
+
+h2 { font-size: 56px; }
+
+p, span { font-size: 20px; }
+
+.openBtn { background: transparent; border: none; margin: 0; }
+
+/* The overlay effect with black background */
+.overlay { height: 100%; width: 100%; display: none; position: fixed; z-index: 1; top: 0; left: 0; background-color: black; background-color: rgba(0, 0, 0, 0.9); /* Black with a little bit see-through */ }
+
+/* The content */
+.overlay-content { position: relative; top: 46%; width: 80%; text-align: center; margin-top: 30px; margin: auto; }
+
+/* Close button */
+.overlay .closebtn { position: absolute; top: 20px; right: 45px; font-size: 60px; cursor: pointer; color: white; }
+
+.overlay .closebtn:hover { color: #ccc; }
+
+/* Style the search field */
+.overlay input[type=text] { padding: 15px; font-size: 17px; border: none; float: left; width: 80%; background: white; }
+
+.overlay input[type=text]:hover { background: #f1f1f1; }
+
+.menu-header-bottom { background: black; height: 15vh; }
+
+.row-menu { border-top: 1px solid black; }
+
+.boxhidden { display: none; }
+
+.box-inner { margin: 15px 0px; }
+
+.box-inner > p { text-align: center; color: white; font-size: 12px; }
+
+.boxsearch { display: block; }
+
+.shop-menu { list-style: none; text-decoration: underline; margin: 0; display: flex; padding: 35px 0px; justify-content: center; }
+
+.shop-menu > li > a > i { color: #f2f2f2; padding: 0px 16px; text-decoration: none; font-size: 17px; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
+
+@media (max-width: 475px) { .logo-topo { width: 100px; height: 70px; } }
+.row-logo-search { background-color: white; }
+
+.logo-topo { width: 145px; display: block !important; margin: 0 auto; padding-top: 9px; }
+
+.top-call { background-color: #0A0908; padding: 5px 0px; }
+
+.row-logo-search { background-color: #B7D3F2; width: 100%; text-align: center; margin: 0; justify-content: center; }
+
+/* Add a black background color to the top navigation */
+.topnav { background: #0A0908; overflow: hidden; text-align: center; padding: 5px 0px; display: flex; flex-direction: row; justify-content: center; width: 100%; align-items: center; }
+
+/* Style the links inside the navigation bar */
+.topnav a { color: #2f4f4f; padding: 14px 16px; text-decoration: none; font-size: 17px; font-weight: 600; }
+
+/* Change the color of links on hover */
+.topnav a:hover { background-color: #ddd; color: #0A0908; text-decoration: underline; }
+
+/* Add an active class to highlight the current page */
+.topnav a.active { background-color: #4CAF50; color: white; }
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon { display: none; }
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) { .topnav a { display: none; }
+  .topnav a.icon { float: right; display: block; } }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) { .topnav.responsive { position: relative; flex-direction: column; }
+  .topnav.responsive a.icon { position: relative; right: 0; top: 0; }
+  .topnav.responsive a { float: none; display: block; text-align: left; } }
+.row-fa { border-top: 1px solid grey; }
+
+.carousel-item { height: 60vh; min-height: 300px; background: no-repeat center center scroll; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+.portfolio-item { margin-bottom: 30px; }
+
+.top-call-ul { list-style: none; display: flex; flex-direction: row; justify-content: space-around; }
+
+.top-call-ul2 { list-style: none; display: flex; flex-direction: row; justify-content: space-evenly; }
+
+.top-call-ul > li > a { color: #f0f8ff; text-transform: uppercase; font-size: 14px; }
+
+.top-call-ul2 > li > a { color: #f0f8ff; text-transform: uppercase; font-size: 14px; }
+
+.menu-trevisan { list-style: none; display: flex; flex-direction: row; justify-content: center; padding-top: 40px; }
+
+.menu-trevisan > li > a { text-transform: uppercase; color: rgba(255, 255, 255, 0.75); font-weight: 600; padding: 0px 15px; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
+
+.cta-dois { height: 300px; }
+
+.img-cta-dois { max-height: 300px; display: block; margin: 0 auto; }
+
+.nav-style { width: 100%; justify-content: center; text-align: center; }
+
+.nav-item { margin: 0px 5px; text-transform: uppercase; font-size: 14px; }
+
+.nav-link { color: black !important; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
+
+.container-dois { position: relative; width: 50%; }
+
+/* Make the image responsive */
+.container-dois img { width: 100%; height: auto; }
+
+/* Style the button and place it in the middle of the container/image */
+.container-dois .btn { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); background-color: #555; color: white; font-size: 16px; padding: 12px 24px; border: none; cursor: pointer; border-radius: 5px; }
+
+.container-dois .btn:hover { background-color: black; }
+
+.box-body { margin: 15px 10px; min-height: 200px; }
+
+.faixa-call { min-height: 150px; background: #B7D3F2; max-height: 200px; }
+
+.svg-call { display: block; margin: 0 auto; }
+
+.faixa-title { color: #f0f8ff; text-align: center; }
+
+.footer-container { background: #0A0908 !important; }
+
+.footer-container2 { background: #B7D3F2; }
+
+.logo-footer { display: block; max-width: 125px; margin: 0 auto; }
+
+.footer-pagtos, .footer-lista { list-style: none; width: 100%; }
+
+.footer-pagtos { display: flex; flex-direction: row; justify-content: space-evenly; }
+
+.footer-title { text-decoration: underline; text-align: center; text-transform: uppercase; font-weight: 600; font-size: 18px; margin: 20px 0px; color: #f0f8ff; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); }
+
+.footer-pagtos > li > img { margin: 5px; }
+
+.footer-lista > li > a { font-family: 'Raleway'; font-size: 14px; color: #0A0908; }
+
+.footer-credits { background: #0A0908; }
+
+.font-credits { font-size: 12px; color: #B7D3F2; }

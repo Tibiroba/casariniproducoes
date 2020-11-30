@@ -1,0 +1,75 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import 'header';
+
+@import 'colors';
+
+@font-face {
+  font-family: DancingScript;
+  src: url(src/fonts/DancingScript.woff2) format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: BebasNeue;
+  src: url(src/fonts/BebasNeue.woff2) format('woff2');
+
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
+
+
+
+ul{
+	list-style-type:none;
+}
+
+
+
+/*
+
+header
+
+*/
+.navbar-toggler{
+	background-color:$cor-secundaria;
+}
+.navbar-toggler-icon{
+	
+}
+.nav-link{
+	font-family: 'BebasNeue';
+	font-weight: 600;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) !important;
+    color: currentcolor;
+    padding: 0px 15px;
+}
+
+.navbar-nav{
+	width:100%;
+	text-align:center;
+	justify-content: center;
+	align-items: center;
+
+}
+.navbar{
+	justify-content: 	center;
+}
+
+
+.img-fluid{
+	display:block;
+	margin:0 auto;
+}
+
+.carousel-item{
+	background:no-repeat center center;
+	background-size: cover;
+	min-height: 20vh;
+	height: 100vh;
+}
+
+/*FOOTER*/
