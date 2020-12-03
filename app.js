@@ -18090,6 +18090,16 @@ for (i = 0; i < acc.length; i++) {
 
 ;
 
+function switchStyle() {
+  if (document.getElementById('styleSwitch').checked) {
+    document.getElementById('gallery').classList.add("custom");
+    document.getElementById('exampleModal').classList.add("custom");
+  } else {
+    document.getElementById('gallery').classList.remove("custom");
+    document.getElementById('exampleModal').classList.remove("custom");
+  }
+}
+
 /***/ }),
 
 /***/ "./src/app.scss":
@@ -18110,8 +18120,8 @@ for (i = 0; i < acc.length; i++) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\User\Local Sites\casariniproducoes\app\public\wp-content\themes\casariniproducoes\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\User\Local Sites\casariniproducoes\app\public\wp-content\themes\casariniproducoes\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\casariniproducoes\wp-content\themes\casariniproducoes\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\casariniproducoes\wp-content\themes\casariniproducoes\src\app.scss */"./src/app.scss");
 
 
 /***/ })

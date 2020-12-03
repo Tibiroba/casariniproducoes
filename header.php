@@ -24,31 +24,16 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class();?>>
-<header>
+<header class="fixed-top">
 <div class="container-fluid" style="padding:0; margin:0;">
-
-				<div class="row row-topo" style="background-color:black; height:60px;">
-      <div class="col-4">
-        <a href="">frete gratis</a>
-      </div>
-        <div class="col-4">
-        <a href="">garantia vitalicia</a>
-      </div> 
-        <div class="col-4">
-        <a href="">compra garantia</a>
-      </div>     
-        </div>
-
-		<div class="row row-topo2">
-      
-		
+<div class="row">
         <div class="col-12 col-sm-4">
-          <a target="_blank" href=""><img class="logo-topo" style= "" src="<?php echo get_stylesheet_directory_uri();?>/img/logo.png" alt="logo"></a>
+          <a target="_blank" href=""><img class="logo-topo" style="" src="<?php echo get_stylesheet_directory_uri();?>/img/logo_branco.png" alt="logo"></a>
         </div>
    
       
 		
-<div class="col-12 col-sm-8">
+<div class="col-12 col-sm-7">
       <nav class="navbar navbar-expand-md">
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,31 +43,32 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="https://.com.br/">Loja<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https:/casariniproducoes.com.br/">página inicial<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://.com.br/categorias/aliancas-de-casamento/">Colares</a>
+            <a class="nav-link" href="https://.com.br">portfólio</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" href="https://.com.br/categorias/aliancas-de-noivado">Anéis</a>
+            <a class="nav-link" href="https://.com.br">parceiros</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="https://.com.br/categorias/aliancas-de-casamento">Brincos</a>
+            <a class="nav-link" href="https://.com.br/">contato</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="https://.com.br/categorias/">tornozeleiras</a>
+            <a class="nav-link" href="https://.com.br">blog</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">mais</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#" B NV B>Correntes</a>
-              <a class="dropdown-item" href="#">Pulseiras</a>
-              <a class="dropdown-item" href="#">Brincos</a>
-            </div>
-          </li>
+         
         </ul>
       </div>
     </nav>
+    </div>
+    <div class="col-12 col-sm-1">
+      <ul class="icones-social-media">
+        <li><a target="_blank" href=""><img src="<?php echo  get_stylesheet_directory_uri();?>/img/facebook.png" alt="/img/facebook.jpg"></a></li>
+        <li><a target="_blank" href=""><img src="<?php echo  get_stylesheet_directory_uri();?>/img/instagram.png" alt="/img/instagram.jpg" alt=""></a></li>
+        <li><a target="_blank" href=""><img src="<?php echo  get_stylesheet_directory_uri();?>/img/linkedin.png" alt="/img/linkedin.jpg" alt=""></a></li>
+      </ul>
+    </div>
     </div>
 </div>
 </div>
